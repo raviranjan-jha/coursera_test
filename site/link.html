@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Links</title>
+</head>
+<body>
+<h1 id="top"> Links to Sections of the same page.</h1>
+<section>
+	<ul>
+		<li><a href="#section1">#section1</a></li>
+		<li><a href="#section2">#section2</a></li>
+		<li><a href="#section3">section3</a></li>
+		<li><a href="#section4">#section4</a></li>
+		<li><a href="#section5">#section5</a></li>
+	</ul>
+</section>
+<section id="section1">
+	<h3>(#section1) Section1</h3>
+	<p>
+		The first thing you should do when you install Git is to set your user name and
+email address. This is important because every Git commit uses this information,
+and it’s immutably baked into the commits you start creating:
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+Again, you need to do this only once if you pass the --global option, because
+then Git will always use that information for anything you do on that system.
+If you want to override this with a dierent name or email address for specific
+projects, you can run the command without the --global option when
+you’re in that project.
+Many of the GUI tools will help you do this when you first run them.
+	</p>
+</section>
+<section id="section2">
+<h3>(#section2) Section 2</h3>
+<p>
+	You should have a basic understanding of what Git is and how it’s dierent from
+the centralized version control system you may have previously been using. You
+should also now have a working version of Git on your system that’s set up with
+your personal identity. It’s now time to learn some Git basics.
+</p>
+</section>
+<section id="section3">
+	<h3>(#section3) Section 3</h3>
+	<p>
+		If you can read only one chapter to get going with Git, this is it. This chapter
+covers every basic command you need to do the vast majority of the things
+you’ll eventually spend your time doing with Git. By the end of the chapter, you
+should be able to configure and initialize a repository, begin and stop tracking
+files, and stage and commit changes. We’ll also show you how to set up Git to
+ignore certain files and file patterns, how to undo mistakes quickly and easily,
+how to browse the history of your project and view changes between commits,
+and how to push and pull from remote repositories.
+	</p>
+</section>
+<section id="section4">
+	<h3>(#section3) Section 3</h3>
+	<p>
+		
+		If you want to get a copy of an existing Git repository – for example, a project
+you’d like to contribute to – the command you need is git clone. If you’re familiar
+with other VCS systems such as Subversion, you’ll notice that the command
+is “clone” and not “checkout”. This is an important distinction – instead
+of getting just a working copy, Git receives a full copy of nearly all data that the
+server has. Every version of every file for the history of the project is pulled
+down by default when you run git clone. In fact, if your server disk gets corrupted,
+you can oen use nearly any of the clones on any client to set the server
+back to the state it was in when it was cloned (you may lose some server-side
+hooks and such, but all the versioned data would be there – see “Getting Git
+on a Server” for more details).
+	</p>
+</section>
+<section id="section5">
+	<h3>(#section5) Section 5 </h3>
+	<p>
+		That creates a directory named “libgit2”, initializes a .git directory inside it,
+pulls down all the data for that repository, and checks out a working copy of the
+latest version. If you go into the new libgit2 directory, you’ll see the project
+files in there, ready to be worked on or used. If you want to clone the repository
+into a directory named something other than “libgit2”, you can specify that as
+the next command-line option:
+	</p>
+</section>
+<div><p> Back to the Top <a href="#top">Back to the top</a></p></div>
+</body>
+</html>
