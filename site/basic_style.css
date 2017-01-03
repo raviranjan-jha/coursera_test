@@ -3,4 +3,10 @@ body{
 	font-size: 15px
 	font-style:italic;
 	color: blue;
+	text-align: center;
 }
+
+h1:hover, h2:hover{
+	background-color: yellow;
+	text-decoration: underline;
+	}
