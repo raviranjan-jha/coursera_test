@@ -6,11 +6,44 @@
 <style>
 /* Styles go here. */
 header li{
-text-decoration: none;
 list-style: none;
 
         }
+a:link , a:visited{
+  text-decoration: none;
+  background-color: gray;
+  border:1px solid red;
+  display: block;
+  text-align: center;
+  margin-bottom: 2px;
+  color: black;
+  width: 200px
+}
 
+a:hover,a:active{
+  background-color: yellow;
+  text-decoration: underline;
+}
+
+header li:nth-child(3){
+  font-size: 20px;
+}
+
+section div:nth-child(odd){
+  font-size: 10 px;
+  background-color: blue;
+  width: 200px;
+  margin-bottom: 3px;
+}
+
+section div:nth-child(4):hover{
+  background-color: green;
+  width: 200px;
+  margin-bottom: 3px;
+  text-decoration: underline;
+  color: yellow;
+  text-align: center;
+}
 </style>
 </head>
 <body>
