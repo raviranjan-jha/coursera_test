@@ -58,6 +58,7 @@
     border: 1px solid black;
     height: 300px;
     overflow: auto;
+    background-color: grey;
    }
   .col-lg-1 {
     width: 8.33%;
@@ -105,6 +106,7 @@
     border: 1px solid black;
     height: 300px;
     overflow: auto;
+    background-color: grey;
   }
   .col-md-1 {
     width: 8.33%;
@@ -152,6 +154,7 @@
     border: 1px solid black;
     height: 300px;
     overflow: auto;
+     background-color: grey;
   }
   .col-ls-1 {
     width: 8.33%;
